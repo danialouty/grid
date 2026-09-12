@@ -1,0 +1,30 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  width: 990px;
+  padding: 20px;
+  font-family: sans-serif;
+  height: 610px;
+}
+
+.gallery-item {
+  position: relative; 
+}
+
+.gallery-item img {
+  width: 500px;
+  height: auto;
+}
+
+.badge {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.7); 
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+
+}
